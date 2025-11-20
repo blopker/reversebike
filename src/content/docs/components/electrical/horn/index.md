@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/horn
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Horn
-
 It honks!
 
 It's a standard 12V motorcycle horn. The replacement bike's horn sounded like a strangled cat until I turned the adjustment screw first one way (went silent) then the other (sounded like a horn). You can replace them for less than $10.

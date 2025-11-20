@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/mods/charging-port-cover
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Charging Port Cover
-
 ## Replacement covers for the "Newport" battery's charging port
 
 ![](02025fb1ac5c7c5f5eec227bd5b66ca0246d452d8cff96ff923313092b765744.jpg)

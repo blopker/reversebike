@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/motivation
 header: 7671957113d07f52ce051f57f5586cfe57a7066103d7335e6d237f4536c97ad9.jpg
 ---
 
-# Motivation
-
 The Super73 RX Mojave is a fat-tire electric bicycle sold in the US until April 2023.
 
 I've fixed and repaired bikes for decades, including volunteering at organizations to repair bikes at walk-in clinics. I've built a mid-drive e-bike conversion that has worked without issue since 2017.

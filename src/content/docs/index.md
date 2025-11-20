@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike
 header: 76ba1ecc8a1a28105a62b43d6475a788ab2af56758f06233ad1dcde3f4fda138.jpg
 ---
 
-# Home
-
 The Super73 Reverse Engineered project provides comprehensive service documentation for Super73's fat tire e-bikes. The initial focus will be on the R-series and S-series.
 
 Super73 provides very minimal documentation; what exists is focused on use. Their limited warranty discourages modification or disassembly. Many parts are common but with proprietary connections, creating intentional incompatibilities.

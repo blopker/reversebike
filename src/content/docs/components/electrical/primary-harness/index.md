@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/primary-harness
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Primary Harness
-
 This harness links multiple 5V controls to the controller.
 
 Warranty price: $19.75

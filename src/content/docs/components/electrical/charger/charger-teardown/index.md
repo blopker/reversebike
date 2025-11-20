@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/charger/charger-tea
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Charger Teardown
-
 ![](702bb9d2259e8705edabbadeb20f827ae2b0f00be39ccbdebddea41425a3be88.jpg)
 
 Case screws x4.

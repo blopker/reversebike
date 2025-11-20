@@ -4,10 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/additional-cablesad
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Additional Cables/Adaptors
-
-## Additional Cables/Adaptors
-
 Various cables and adaptors present in the stock wiring.
 
 ## PAS Sensor extension cable

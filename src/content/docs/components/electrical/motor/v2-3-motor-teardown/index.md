@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/motor/v2-3-motor-te
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Teardown
-
 ## Coil, wiring, hall sensors, pcb
 
 ![](cf6e56349dca3aba1abc56e40350d80120135bbb5f74162761d0d2ec5f3c63ce.jpg)

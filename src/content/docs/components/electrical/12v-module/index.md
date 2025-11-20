@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/12v-module
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# 12V Module
-
 This module is attached to the main controller and converts the controller's 48V to 12V.  It manages all 12V  peripherals and is controlled through a CAN bus. 
 
 * Marked: "SUPER73\_DC\_DC\_V20" "210118231"

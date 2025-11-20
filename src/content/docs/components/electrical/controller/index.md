@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/controller
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Contoller
-
 This is the main controller linking the battery, motor, controls, and peripherals. 
 
 * Marked: "SUPER73\_S2\_EU\_V203" "210120391"

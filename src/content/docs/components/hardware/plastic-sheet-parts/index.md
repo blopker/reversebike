@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/hardware/plastic-sheet-parts
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Plastic Sheet Parts
-
 ![](b23c605b378aeea85978b7befd9543f0da943c5402004944126e0d2c4d63204c.jpg)
 
 Bottom of the seat controller cover (S2).

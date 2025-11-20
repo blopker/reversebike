@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/diagnostics/known-material-issues/motor-i
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Motor
-
 ## Molten motor connector
 
 Cause: Heavy use at 2000W, custom controller.

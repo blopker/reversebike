@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/diagnostics/known-material-issues/charger
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Charger
-
 ## Broken solder joint on the 220V port
 
 Cause: Wear from the movement of the port.

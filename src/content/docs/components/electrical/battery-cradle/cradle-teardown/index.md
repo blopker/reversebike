@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/components/electrical/battery-cradle/crad
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Cradle Teardown
-
 ![](ea31a82564047cd82d36df93a60c50e34483b5f3d0678cab77d23183d45fb57c.jpg)
 
 Empty Super73 battery cradle.

@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/diagnostics/error-codes
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Error Codes
-
 When using the Super73 electric bike, encountering error codes on the display screen can be frustrating. 
 
 However, understanding what these error codes mean and how to resolve them can help ensure a smoother riding experience. 

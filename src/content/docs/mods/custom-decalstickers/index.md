@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/mods/custom-decalstickers
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
 
-# Custom Decals/Stickers
-
 ## SVG Patterns for custom Super73 battery decals
 
 ![](c1e4f660136f23c117da5a593587a71f01dea4d0846c836b076dc4114fd294c0.png)

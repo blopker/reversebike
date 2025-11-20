@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/diagnostics
 header: d10d941fd317d884c46c154dae0b6f1659855934adf91dd6d62b5400a80d8993.jpg
 ---
 
-# Diagnostics
-
 ## Introduction
 
 This page covers a few things you can try yourself if your Super 73 eBike is not working properly.   Consulting Super 73 support should usually be your first choice, but if support is too slow to respond, indicates you are out of warranty, or simply doesn't have an answer, these diagnostics may help.

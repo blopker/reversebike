@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/specifications
 header: 1b447656108a16e1bb78d3b73731dcb6974e0231fe829677d6a92e753773ed59.jpg
 ---
 
-# Documentation
-
 [Bluetooth BLE](/specifications/bluetooth-ble)
 
 [CAN Bus Content](/specifications/can-bus-content)

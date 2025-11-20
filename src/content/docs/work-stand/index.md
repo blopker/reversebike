@@ -4,8 +4,6 @@ original_url: https://www.reverse.bike/work-stand
 header: 4fd4b1dfd0c3c55acd9d5dd427edd82c663726b1b1557046ea21a13f3a86cbef.jpg
 ---
 
-# Super73 Work Stand
-
 With a custom frame and weighing 84 pounds, the Super73 RX Mojave is, at best, awkward to work on. Logistically, there are more similarities to a motorcycle or dirt bike than to a bicycle.
 
 Traditional bicycle stands are not suitable for several reasons. There's no seat post, so you can't clamp there. The double-tubed frame is too wide to clamp onto. The weight exceeds the limits of most stands.
