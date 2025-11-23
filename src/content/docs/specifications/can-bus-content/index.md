@@ -1,5 +1,5 @@
 ---
-title: can bus content
+title: CAN Bus Content
 original_url: https://www.reverse.bike/specifications/can-bus-content
 header: 7410d34f5886f37c917f30f80b870ee60ec6feca162a11d5b28bd790ca2227b9.png
 ---
@@ -90,4 +90,5 @@ Below is a spreadsheet documenting our analysis of the various CAN bus frames us
 
 Super 73 does not provide this level (or any level, really) of documentation on their bikes, so this was reverse engineered using a CAN sniffer and making some educated guesses by observing bike actions vs resulting data changes in the CAN data.  This is a work in progress.
 
-![](81e36b22fe0961485f24ad3f90eb93b0d50d4c348f0c1f4c45cccdfc2f6aab6b.png)S73 CAN Traffic Analysis
+
+[S73 CAN Traffic Analysis Sheet](https://docs.google.com/spreadsheets/d/1_4yek2lQ8dgjGym1Y8BURLcmWUYbLRsLaRuLpYjaGt8/edit?gid=1335315167#gid=1335315167)
