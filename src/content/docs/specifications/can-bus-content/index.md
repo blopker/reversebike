@@ -86,7 +86,7 @@ For an analysis of the data found in S73 CAN frames, see below.
 
 ## S73 CAN Traffic Analysis
 
-Below is a spreadsheet documenting our analysis of the various CAN bus frames used on an S73 bike.   For easier viewing and scrolling, hover over the sheet below until the grey square icon appears at top right and then click it to open the sheet in a separate tab. 
+Below is a spreadsheet documenting our analysis of the various CAN bus frames used on an S73 bike.
 
 Super 73 does not provide this level (or any level, really) of documentation on their bikes, so this was reverse engineered using a CAN sniffer and making some educated guesses by observing bike actions vs resulting data changes in the CAN data.  This is a work in progress.
 

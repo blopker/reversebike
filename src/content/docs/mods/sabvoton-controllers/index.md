@@ -55,7 +55,7 @@ Pros:
 
 Cons:
 
-* Connector replacement needed (involves cutting wires and soldering new connectors or making adaptors)
+* Connector replacement needed (involves cutting wires and soldering new connectors or making adapters)
 * Requires a separate 12V module for lights, horn
 * It has the power to fry your other components if you're being silly with your settings
 
@@ -64,18 +64,18 @@ Cons:
 ### Minimal Setup
 
 1. The actual controller.  For this write-up, a Sabvoton SVMC7260 (60A) was bought on Aliexpress from a trusted seller.  A 7245 (45A) would technically be sufficient but it is good practice to over-spec your controller and consider long-term motor upgrades. Anything higher than 60A is probably overkill but should work just as well.
-2. Wires and connectors. I chose to keep all my stock components intact (I recommend doing so).  So I made adaptors that match my stock components on one side and the new controller on the other. Clean and swappable. For that, you will need some higo wires to cut and splice with whatever connectors your Sabvoton has (order the controller first to be sure what connectors it has). If you have an old Super73 [controller](/components/electrical/controller) you can retrieve the cables from it. Otherwise, you might have to do some shopping:
+2. Wires and connectors. I chose to keep all my stock components intact (I recommend doing so).  So I made adapters that match my stock components on one side and the new controller on the other. Clean and swappable. For that, you will need some higo wires to cut and splice with whatever connectors your Sabvoton has (order the controller first to be sure what connectors it has). If you have an old Super73 [controller](/components/electrical/controller) you can retrieve the cables from it. Otherwise, you might have to do some shopping:
 
-   * For the motor adaptor:
+   * For the motor adapter:
 
      + A  Higo motor cable with a female [HG-F.M-L1019A](https://www.higocon.com/motor-connector/hg-fm-l1019a.html) plug (Aliexpress)
      + A 6-pin connector corresponding to your controller's motor hall connector
      + 3 ring cable lugs for 3mm wire with adequate diameter for your controller's screw ports.
-   * For the battery adaptor
+   * For the battery adapter
 
      + A Higo battery cable with a male [L615AG P 00 DC 1000](https://www.higoconnector.com/products/l615ag-p-00-dc-1000/bw99K#title) plug (Aliexpress maybe)
      + 3 ring cable lugs for 3mm wire with adequate diameter for your controller's screw ports.
-   * For the primary harness adaptor:
+   * For the primary harness adapter:
 
      + A Higo cable with a 12-pin [CONNECTOR-F.S-Z1211](https://www.eworldtrade.com/pd/ansonyincompany/higo-connector-f-s/806737/)  (hard to find unless you scavenge it from a dead stock controller).  If you really can't find it then get a 3-pin higo cable and connect the throttle directly without using the [primary harness](/components/electrical/primary-harness) (see below).
 
@@ -89,21 +89,21 @@ All the wiring for each component is described in excruciating detail on our [Co
 
 ![](498bab899c85f9d6689dd8589bcb65d0c81446a165ecb90f7dc7af3c1ab661ca.jpg)
 
-Motor adaptor
+Motor adapter
 
-### Motor adaptor
+### Motor adapter
 
 A motor harness that will plug into [the motor's 10-pin connector](https://sites.google.com/view/super73-reverse-engineering/components/electrical/motor) on one side. On the other, it will plug into the controller's 5-pin hall sensor connector and the three green, blue, and yellow phases. A grey and a white wire (speed and thermal) won't be used.
 
-### Battery adaptor
+### Battery adapter
 
 A battery harness that plugs into [the battery cradle's 6-pin connector](https://sites.google.com/view/super73-reverse-engineering/components/electrical/battery-cradle) on one side. On the other the 4 small wires are unused, the positive and negative go to the red and black ports on the controller.
 
-### Primary Harness / Throttle adaptor
+### Primary Harness / Throttle adapter
 
-An adaptor for the primary harness. On one side it connects to [the primary harnesse's 12-pin input](https://sites.google.com/view/super73-reverse-engineering/components/electrical/primary-harness). On the other side, we only use the three throttle wires and plug them into the throttle connector on the controller. The 12-pin connector can be hard to find while 3-pin higo wires are common. You can absolutely skip the primary harness and make a simple adaptor going straight to the throttle.
+An adapter for the primary harness. On one side it connects to [the primary harnesse's 12-pin input](https://sites.google.com/view/super73-reverse-engineering/components/electrical/primary-harness). On the other side, we only use the three throttle wires and plug them into the throttle connector on the controller. The 12-pin connector can be hard to find while 3-pin higo wires are common. You can absolutely skip the primary harness and make a simple adapter going straight to the throttle.
 
-These three adaptors are the minimum requirement to have a running setup. You can keep going with optional things like brakes, PAS, etc...  I will be updating the wiring diagram as I do.
+These three adapters are the minimum requirement to have a running setup. You can keep going with optional things like brakes, PAS, etc...  I will be updating the wiring diagram as I do.
 
 # Tuning
 
