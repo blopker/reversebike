@@ -1,0 +1,134 @@
+---
+title: Super73 Reverse Engineered
+original_url: https://www.reverse.bike
+header: 76ba1ecc8a1a28105a62b43d6475a788ab2af56758f06233ad1dcde3f4fda138.jpg
+---
+import { Image } from 'astro:assets';
+import bamuel from './ba70ada8a3e4018bea3378d9dea8cc506593d51b4b52c31d81694660e653badc.jpg';
+import nullimg from './2403127327ead94114070229fd57171495b607bb35a0643f1936c4686be1141a.png';
+import axel from './45dc89172668d28b7de6380933274c13898d6207086583e510e66dd25f2762ec.png';
+import bacon from './d3c71a164c9312eb9a5cd196047f4365a0db92262f89e3c2c048878dcb22af9d.jpg';
+
+export const contributors = [
+	{ name: 'Null Confluence', alt: 'Null Confluence portrait', image: nullimg },
+	{ name: 'Axel Fougues', alt: 'Axel Fougues portrait', image: axel },
+	{ name: 'BaconCentric', alt: 'BaconCentric portrait', image: bacon },
+	{
+		name: 'Bamuel',
+		alt: 'Bamuel portrait',
+		image: bamuel,
+		link: 'https://github.com/Bamuel',
+	},
+];
+
+The Super73 Reverse Engineered project provides comprehensive service documentation for Super73's fat tire e-bikes. The initial focus will be on the R-series and S-series.
+
+Super73 provides very minimal documentation; what exists is focused on use. Their limited warranty discourages modification or disassembly. Many parts are common but with proprietary connections, creating intentional incompatibilities.
+
+This project aims to exercise the [right to repair](https://en.wikipedia.org/wiki/Right_to_repair) by guiding anyone with foundational bicycle knowledge willing to learn more and maintain their e-bike. The ability to repair and maintain extends the life and enjoyment of the e-bike, is economically and ecologically sound, and is incredibly satisfying.
+
+The documentation will include specifications, instructions, photos, diagrams, explanations, theories, links to manufacturers, and findings from reverse engineering efforts.
+
+We'll do our best to keep it current and accurate.
+
+## Contact
+
+Have a question or want to help with documentation? Join us on the [SuperDuper Discord server](https://discord.gg/STvgARZYaw), which has become the defacto Super73 Discord server.
+
+## Contributors
+
+<section class="contributors-grid">
+	{contributors.map(({ name, image, alt, link }) => {
+		const cardBody = (
+			<>
+				<Image class="contributor-avatar" src={image} alt={alt} width={160} height={160} loading="lazy" />
+				<p class="contributor-name">{name}</p>
+			</>
+		);
+
+		return link ? (
+			<a
+				key={name}
+				class="contributor-card contributor-card--link"
+				href={link}
+				rel="noreferrer noopener"
+				target="_blank"
+				aria-label={`Visit ${name}'s profile`}
+			>
+				{cardBody}
+			</a>
+		) : (
+			<article key={name} class="contributor-card">
+				{cardBody}
+			</article>
+		);
+	})}
+</section>
+
+<style>
+	{`
+	.contributors-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-auto-rows: 1fr;
+		gap: 1.5rem;
+		margin: 2.5rem 0;
+	}
+
+	.contributor-card {
+		background: var(--sl-color-bg-soft, var(--sl-color-bg-nav));
+		border: 1px solid var(--sl-color-gray-5, rgba(255, 255, 255, 0.08));
+		border-radius: 1rem;
+		padding: 1.25rem 1rem;
+		text-align: center;
+		box-shadow: 0 12px 30px rgba(15, 15, 20, 0.2);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75rem;
+		color: inherit;
+		text-decoration: none;
+		height: 100%;
+	}
+
+	.contributor-card--link {
+		cursor: pointer;
+		border-color: color-mix(in srgb, var(--sl-color-accent), transparent 60%);
+		position: relative;
+		transition: transform 150ms ease, box-shadow 150ms ease;
+	}
+
+	.contributor-card--link:hover,
+	.contributor-card--link:focus-visible {
+		transform: translateY(-4px);
+		box-shadow: 0 20px 40px rgba(15, 15, 20, 0.3);
+		border-color: var(--sl-color-accent);
+	}
+
+	.contributor-card--link::after {
+		content: '↗';
+		font-size: 0.85rem;
+		position: absolute;
+		top: 0.85rem;
+		right: 0.75rem;
+		color: var(--sl-color-accent);
+		opacity: 0.75;
+		pointer-events: none;
+	}
+
+	.contributor-avatar {
+		border-radius: 999px;
+		border: 3px solid var(--sl-color-accent, #66c7ff);
+		width: 160px;
+		height: 160px;
+		object-fit: cover;
+	}
+
+	.contributor-name {
+		font-size: 1rem;
+		font-weight: 600;
+		margin: 0;
+	}
+	`}
+</style>
